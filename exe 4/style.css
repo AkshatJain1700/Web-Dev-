@@ -1,0 +1,20 @@
+:root{
+    --col: white;
+    --bgcol: black;
+
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 5px 14px;
+    background-color: dodgerblue;
+
+}
+
+li{
+    padding: 14px;
+    color: rgb(244, 189, 8)
+}
