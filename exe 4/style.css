@@ -13,8 +13,16 @@ ul{
     background-color: dodgerblue;
 
 }
-
 li{
     padding: 14px;
     color: rgb(244, 189, 8)
 }
+
+.box:nth-child(2):first-line{
+    color:brown;
+}
+
+.box:nth-child(2):first-letter{
+    font-size: 45px;
+}
+

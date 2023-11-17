@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(59, 57, 57);
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 5px 25px;
+    background-color: blueviolet;
+}
+
+nav li {
+    padding: 14px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .gbcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+} */
+
+.greenbg {
+    text-align: center;
+    margin: 15px 20px;
+    background-color: greenyellow;
+}
+
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: palevioletred;
+    margin: 50px 50px;
+    display: inline-block;
+}
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    background-color: palevioletred;
+    margin: 50px 50px;
+    display: inline-block;
+
+}
+
+.cap {
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px 50px;
+    font-size: 45px;
+
+}
+
+.foot {
+    height: 250px;
+}
+
+.cir {
+    position: fixed;
+    border-radius: 60px;
+    bottom: 15px;
+    right: 25px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+nav {
+    position: sticky;
+    top: 0px
+}
+
+.foot {
+    height: 250px;
+    background-color: azure;
+    padding: 50px;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+@media only screen and (max-width: 540px) {
+
+    .greenbg {
+        text-align: center;
+        margin: 15px 20px;
+        background-color: greenyellow;
+    }
+
+    .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: palevioletred;
+        margin: 50px 50px;
+        display: inline-block;
+    }
+    
+    .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: palevioletred;
+        margin: 50px 50px;
+        display: inline-block;
+    
+    }
+    
+    .cir {
+        position: fixed;
+        border-radius: 60px;
+        bottom: 15px;
+        left: 25px;
+    }
+    
+    img {
+        border-radius: 50%;
+    }
+
+    
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 5px 25px;
+    background-color: blueviolet;
+}
+
+nav li {
+    padding: 14px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+
+}
