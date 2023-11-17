@@ -121,7 +121,7 @@ nav {
         position: fixed;
         border-radius: 60px;
         bottom: 15px;
-        left: 25px;
+        right: 25px;
     }
     
     img {

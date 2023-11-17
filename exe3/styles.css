@@ -7,6 +7,14 @@ body{
     background-color: rgb(220, 234, 245)
 }
 
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+
 .card{
     position: absolute;
     border-radius: 13px;
