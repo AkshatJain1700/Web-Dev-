@@ -1,0 +1,122 @@
+@import url(https://db.onlinewebfonts.com/c/9d25ea5c587d0f9d470aa9a3634735ea?family=ETmoudles);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 17px 110px;
+}
+
+.list ul {
+    display: flex;
+    gap: 35px;
+}
+
+li {
+    list-style: none;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+}
+
+li::after,
+ul:not(img) {
+    font-family: "ETmoudles";
+    content: "3";
+    font-weight: 600;
+}
+
+ul img {
+    cursor: pointer;
+}
+
+.logo img {
+    height: 57px;
+}
+
+@media only screen and (max-width: "1050px") {}
+
+.row {
+    display: flex;
+
+}
+
+.conte {
+    display: flex;
+    margin: 200px 280px 40px 280px;
+    font-family: Segoe UI;
+}
+
+h2 {
+    font-family: Segoe UI;
+    font-weight: 400;
+    align-items: center;
+    margin: 0 5px;
+}
+
+p {
+
+    padding: 10px 3px;
+
+}
+
+img {
+    padding: 0px 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.gridcont{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    text-align: center;
+    padding: 25px;
+    background-color: #f9f9f9;
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.name{
+    padding: 0px 0px 40px 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.blue {
+    background-color: #00b6d1;
+
+}
+
+.green {
+    background-color: #5cb85c;
+
+}
+
+.name{
+
+}
